@@ -11,16 +11,16 @@
 
 ### Question 2:
 
-The time complexity is $\frac{n^{2}+n}{2}$
+The time complexity is $\frac{n^{2}+n}{2}$   
 Therefore, Big-O notation is **O($n^{2}$)**
 
 ----------------------------------------
 
 ### Question 3:
 
-Best Case Time Complexity is O(n)
-Average Case Time Complexity is O($n^{2}$)
-Worst Case Time Complexity is O($n^{2}$)
+Best Case Time Complexity is O(n)   
+Average Case Time Complexity is O($n^{2}$)     
+Worst Case Time Complexity is O($n^{2}$)    
 > 18 is Average Case
 
 ----------------------------------------
