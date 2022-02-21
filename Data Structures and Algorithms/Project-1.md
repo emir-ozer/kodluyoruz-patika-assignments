@@ -11,7 +11,7 @@
 
 ### Question 2:
 
-The time complexity is $\frac{n^{2}+n}{2}$
+! The time complexity is $\frac{n^{2}+n}{2}$
 Therefore, Big-O notation is **O($n^{2}$)**
 
 ----------------------------------------
