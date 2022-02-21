@@ -4,15 +4,15 @@
 
 [22,27,16,2,18,6] -> **insertion sort**
 > Step 1: [2,27,16,22,18,6]
-> Step 2: [2,6,16,22,18,27]
-> Step 3: [2,6,16,18,22,27]
+>> Step 2: [2,6,16,22,18,27]
+>>>Step 3: [2,6,16,18,22,27]
 
 ----------------------------------------
 
 ### Question 2:
 
-The time complexity is $ \frac{n^{2}+n}{2} $
-Therefore, Big-O notation is **O($ n^{2} $)**
+The time complexity is $\frac{n^{2}+n}{2}$
+Therefore, Big-O notation is **O($n^{2}$)**
 
 ----------------------------------------
 
