@@ -16,6 +16,8 @@ AND replacement_cost = ANY (SELECT MIN(replacement_cost) FROM film);
 ```
 # Question-4
 ```SQL
-SELECT customer_id, COUNT(payment_id) FROM payment
-GROUP BY customer_id ORDER BY COUNT(payment_id) DESC;
+SELECT payment.customer_id, first_name, last_name, COUNT(payment.customer_id) FROM payment
+FULL JOIN customer ON customer.customer_id = payment.customer_id
+GROUP BY payment.customer_id, customer.first_name, customer.last_name
+ORDER BY COUNT(payment.customer_id) DESC;
 ```
